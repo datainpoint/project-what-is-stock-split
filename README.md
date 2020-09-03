@@ -2,7 +2,7 @@
 
 > 寫一些 R 程式計算 TSLA 與 AAPL 的未調整價格。
 
-點擊圖示啟動專案 [![Binder](https://mybinder.org/badge_logo.svg)]()
+點擊圖示啟動專案 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/datainpoint/project-what-is-stock-split/master?filepath=project-what-is-stock-split.ipynb)
 
 ## 標籤
 
