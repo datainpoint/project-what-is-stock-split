@@ -1,15 +1,16 @@
-# 冠狀病毒大流行
+# 如何還原股票分割前的價格
 
-> 寫一些 Python 程式擷取摘要冠狀病毒大流行現況的四個關鍵數字，並且像維基百科一般地描述。
+> 寫一些 R 程式計算 TSLA 與 AAPL 的未調整價格。
 
-點擊圖示啟動專案 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/datainpoint/project-covid-19-pandemic/master?filepath=project-covid-19-pandemic.ipynb)
+點擊圖示啟動專案 [![Binder](https://mybinder.org/badge_logo.svg)]()
 
 ## 標籤
 
 - 程式設計
 - 獲取載入
+- 整併轉換
 - 摘要探索
 
 ## TL; DR
 
-我們定義了一個函式 `get_latest_daily_report()` 將約翰霍普金斯大學 [COVID-19 Data Repository](https://github.com/CSSEGISandData/COVID-19) 中最新的每日報告載入成為資料框，並從資料框中將四個關鍵數字摘要出來，再使用 f-Strings 以及 `format()` 方法將大流行全球現況以維基百科頁面的格式印出為一段敘述文字。
+在這個專案，我們打算寫一些 R 程式將特斯拉（美股代號：TSLA）與蘋果電腦（美股代號：AAPL）還原成未調整價格並繪製圖形觀察，將會使用 R 的 Quantmod 作為資料擷取與操作的主要套件。
